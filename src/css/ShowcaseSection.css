@@ -1,0 +1,38 @@
+.showcase-bg{
+    position: relative;
+    overflow:hidden;
+}
+
+.showcase-bg::before{
+    content:'';
+    position:absolute;
+    top : 0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-image:url('../svg/35820216_uxz9.svg');   
+    background-size:cover;               
+    background-position:right;    
+    filter:grayscale(40%);                          
+    z-index:-10;                      
+}
+
+
+
+@media (min-width:768px){
+    .showcase-bg::before{
+        content:'';
+        position:absolute;
+        top : 0;
+        bottom:0;
+        right:0;
+        height:100%;
+        width:100%;
+        background-image:url('../svg/35820216_uxz9.svg');   
+        background-size:cover;               
+        background-position:center;    
+        filter:grayscale(40%);                          
+        z-index:-10;                      
+    }
+}
