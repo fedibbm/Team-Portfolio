@@ -6,9 +6,9 @@ import { RiTailwindCssFill } from 'react-icons/ri';
 
 const AboutUsSection = () => {
   return (
-    <section id="AboutUs" className='min-h-screen bg-darkerBlue'>
+    <section id="AboutUs" className='min-h-screen (bg-gradient-to-b) (from-[#246490] to-darkerBlue)'>
         {/* CONTAINER */}
-        <div className='w-[min(1300px,90%)] mx-auto flex flex-col space-y-40 py-20 items-center'>
+        <div className='w-[min(1300px,90%)] mx-auto flex flex-col space-y-40 py-40 items-center'>
             {/* OUR TEAM SECTION */}
             <div className='flex flex-col space-y-20 items-center w-full'>
                 <h1 className='text-white text-[4rem] font-bold '>Our Team</h1>
@@ -54,7 +54,7 @@ const AboutUsSection = () => {
 
             <div className='flex flex-col space-y-20 items-center w-full'>
                 <h1 className='text-[4rem] text-white font-bold text-center'>Technologies We Use </h1>
-                <div className='flex items-center space-x-4 flex-wrap'>
+                <div className='flex items-center space-x-4 flex-wrap '>
                     <p className='text-white font-bold'>Frontend: </p> 
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaReact className='text-4xl' /></div>
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaHtml5 className='text-4xl' /></div>
@@ -65,7 +65,7 @@ const AboutUsSection = () => {
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaAngular className='text-4xl' /></div>
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaSass className='text-4xl' /></div>
                 </div>
-                <div className='flex items-center space-x-4 flex-wrap'>
+                <div className='flex items-center space-x-4 flex-wrap '>
                     <p className='text-white font-bold'>Backend: </p> 
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaDatabase className='text-4xl' /></div>
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><DiMongodb className='text-4xl' /></div>

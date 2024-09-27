@@ -10,24 +10,24 @@
 		<clipPath id="SVGID_00000010292497264987949220000003550970244874486933_">
 			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 		</clipPath>
-		
+<!-- 		
 			<linearGradient id="SVGID_00000121240111676688915260000018194259078235658172_" gradientUnits="userSpaceOnUse" x1="-4.9603" y1="2907.4275" x2="5127.5068" y2="-62.3357">
 			<stop  offset="0" style="stop-color:#00CCFF"/>
 			<stop  offset="1" style="stop-color:#000066"/>
-		</linearGradient>
+		</linearGradient> -->
 		
 			<rect style="clip-path:url(#SVGID_00000010292497264987949220000003550970244874486933_);fill:url(#SVGID_00000121240111676688915260000018194259078235658172_);" width="5000" height="2916"/>
 	</g>	
-		<rect x="3161.549" y="934.77" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="332.371" height="332.483"/>
+		<rect x="3161.549" y="934.77" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="332.371" height="332.483"/>
 	
-		<rect x="3558.088" y="1331.444" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="332.367" height="332.482"/>
+		<rect x="3558.088" y="1331.444" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="332.367" height="332.482"/>
 	
-		<rect x="3936.527" y="938.062" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="332.367" height="332.483"/>
+		<rect x="3936.527" y="938.062" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="332.367" height="332.483"/>
 	
-		<rect x="3952.979" y="1570.106" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="332.371" height="332.482"/>
+		<rect x="3952.979" y="1570.106" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="332.371" height="332.482"/>
 	
-		<rect x="3822.605" y="2028.142" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="209.207" height="209.277"/>
+		<rect x="3822.605" y="2028.142" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="209.207" height="209.277"/>
 	
-		<rect x="3333.913" y="1683.561" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;" width="212.258" height="212.328"/>
+		<rect x="3333.913" y="1683.561" style="opacity:0.65;fill-rule:evenodd;clip-rule:evenodd;fill:#00FFFF;" width="212.258" height="212.328"/>
 	</g>
 </svg>
