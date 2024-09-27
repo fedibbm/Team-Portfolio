@@ -6,12 +6,12 @@ import { RiTailwindCssFill } from 'react-icons/ri';
 
 const AboutUsSection = () => {
   return (
-    <section id="AboutUs" className='min-h-screen bg-gradient-to-b from-darkBlue to-darkerBlue'>
+    <section id="AboutUs" className='min-h-screen bg-gradient-to-b from-darkerBlue to-darkBlue'>
         {/* CONTAINER */}
         <div className='w-[min(1300px,90%)] mx-auto flex flex-col space-y-40 py-40 items-center'>
             {/* OUR TEAM SECTION */}
             <div className='flex flex-col space-y-20 items-center w-full'>
-                <h1 className='text-white text-[4rem] font-bold '>Our Team</h1>
+                <h1 className='text-white underline text-[4rem] font-bold '>Our Team</h1>
                 <ul className='flex flex-col md:flex-row items-center w-full justify-around'>
                     <li className='text-white flex flex-col gap-4'>
                         <img src="/imgs/team_member.png" className='h-60 w-52'/>
@@ -48,12 +48,12 @@ const AboutUsSection = () => {
 
             {/* OUR MISSION */}
             <div className='flex flex-col space-y-20 items-center w-full'>
-                <h1 className='text-[4rem] text-white font-bold text-center'>Our Mission</h1>
+                <h1 className='text-[4rem] text-white font-bold text-center underline'>Our Mission</h1>
                  <p className='text-white text-xl Raleway-font md:max-w-[60%] leading-10 indent-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia voluptate, quaerat aliquid accusamus asperiores doloribus earum quidem libero. Repellat ipsa consequatur asperiores magnam hic delectus amet ratione a. Et.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis mollitia voluptate, quaerat aliquid accusamus asperiores doloribus earum quidem libero. Repellat ipsa consequatur asperiores magnam hic delectus amet ratione a. Et.</p>
             </div>
 
             <div className='flex flex-col space-y-20 items-center w-full'>
-                <h1 className='text-[4rem] text-white font-bold text-center'>Technologies We Use </h1>
+                <h1 className='text-[4rem] text-white font-bold text-center underline'>Technologies We Use </h1>
                 <div className='flex items-center space-x-4 flex-wrap '>
                     <p className='text-white font-bold'>Frontend: </p> 
                     <div className=' max-w-fit p-2 border-2 border-lightBlue text-lightBlue cursor-pointer rounded-md hover:border-white hover:text-white'><FaReact className='text-4xl' /></div>
