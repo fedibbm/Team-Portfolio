@@ -1,6 +1,7 @@
 import React from 'react';
 import ShowcaseSection from './ShowcaseSection';
 import AboutUsSection from './AboutUsSection';
+import TeamProjects from './TeamProjects';
 
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
     <div className="flex flex-col">
         <ShowcaseSection />
         <AboutUsSection />
+        <TeamProjects />
     </div>
   )
 }
