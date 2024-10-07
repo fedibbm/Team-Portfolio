@@ -12,7 +12,7 @@ const ShowcaseSection = () => {
               </h1>
               <p className="text-white max-w-[50%] font-bold pl-4 pb-5">We deliver web solutions that enhance user engagement and drive results.</p>
               <div className="flex gap-10 justify-center pl-4">
-                  <button className="transition-all ease-in-out duration-200 p-2 border-[0.13rem] border-white rounded-md text-white hover:bg-white hover:text-[#3493b9] font-semibold">Work With Us</button>
+                  <a href="#Contact"><button className="transition-all ease-in-out duration-200 p-2 border-[0.13rem] border-white rounded-md text-white hover:bg-white hover:text-[#3493b9] font-semibold">Work With Us</button></a>
                   <a href="#Projects"><button className="transition-all ease-in-out duration-200 p-2 border-[0.13rem] border-[#0a1952] rounded-md text-white hover:bg-transparent hover:text-[#0a1952] bg-[#0f255d] font-semibold">Our Projects</button></a>
               </div>
             </div>
